@@ -1,0 +1,76 @@
+/* DOCUMENTO CSS - projeto card */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+ font-family: ' Amasis MT Pro Black';
+color:black ;
+}
+
+#topo {
+    background-color:#117f09 ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
+#conteudo {
+    background-color: #1d0af7;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.card {
+    width: 300px;
+    height: 430px;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 15px;
+    /*bordas arredondadas */
+    border-radius: 30px;
+    /*sombra */
+    box-shadow: 5px 5px 15px white;
+    background-color:#fbee34 ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.card figure{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+}
+.card figure img {
+    width: 100%;
+    height: 100%;
+border-radius: 10px;
+
+}
+.card section article:hover{
+    border: 5px solid #117f09
+}
+
+.card h2{
+
+}
+.card p{
+
+}
+#rodape {
+    background-color: #117f09;
+    height: 100px;
+}
